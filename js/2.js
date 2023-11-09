@@ -1,7 +1,7 @@
 let ciudades = [];
 
 while (true) {
-  var ciudad = prompt('Ingrese el nombre de una ciudad (o seleccione cancelar para finalizar):');
+  let ciudad = prompt('Ingrese el nombre de una ciudad (o seleccione cancelar para finalizar):');
   if (ciudad === null) {
     break;
   }

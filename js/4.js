@@ -11,7 +11,7 @@ let numeroIngresado = prompt("Ingrese un número entero:");
 let numeroEntero = parseInt(numeroIngresado);
 
 if (!isNaN(numeroEntero)) {
-    var resultado = paridad(numeroEntero);
+    let resultado = paridad(numeroEntero);
     document.write(resultado);
 } else {
     document.write("Por favor, ingrese un número válido.");
